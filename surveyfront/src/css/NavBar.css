@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+
+
+:root{
+    --mainColor: #0a0d18;
+    --mainColorLight:#6989e8;
+    --secondaryColor:#e3dac9;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0 2rem;
+    background-color: var(--mainColor);
+    
+}
+
+nav a{
+    margin: 0 2rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover
+{
+    color: var(--secondaryColor);
+   animation: alternate-reverse;
+}
+

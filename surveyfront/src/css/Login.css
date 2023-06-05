@@ -1,0 +1,50 @@
+.main-container{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 0px 0px 200px 0px; 
+    background-color: rgb(211, 219, 219);
+   
+}
+
+.sub-container
+{
+ justify-content: center;
+ height: 550px;
+ width: 35%;
+ box-shadow: 11px 12px 13px 12px rgb(171, 201, 200);
+ padding-top: 90px;
+ margin-top: 100px;
+ border-radius: 60px;
+ background-color: rgb(211, 219, 219);
+}
+
+.input
+{
+    width:40vh;
+    height:5vh;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.button
+{
+    width:40vh;
+    height:5vh;
+    border-radius: 60px;
+    background-color: #669188;
+}
+
+.highlight
+{
+  border-radius: 60px;
+  border: solid firebrick;
+  width:40vh;
+  height:5vh;
+  text-align: center;
+}
+
+.h9{
+    align-self: left;
+    text-align: left;
+}
