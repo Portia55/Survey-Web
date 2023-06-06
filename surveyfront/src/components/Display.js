@@ -95,7 +95,7 @@ useEffect(() => {
                         )}
                        </div>
                       ))}
-
+                <br/>
                  <div className='csv'>
                  <input  type="text" value={filename} onChange={handleName} />
                   <CSVLink  data={csvData} filename={filename}>
