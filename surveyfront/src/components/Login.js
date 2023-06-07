@@ -25,7 +25,7 @@ const Login = () =>
   const logIn = async() => {
     try{
      //input validation 
-      setEmail('');
+     
 
       if(!email.trim() && !password.trim())
       {
@@ -49,7 +49,7 @@ const Login = () =>
 
      
       await signInWithEmailAndPassword(getAuth(), email, password);
-      navigate('/display')
+      navigate('/survey')
     }
     catch(e)
     {
